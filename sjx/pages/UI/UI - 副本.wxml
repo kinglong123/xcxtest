@@ -1,0 +1,41 @@
+<!--pages/UI/UI.wxml-->
+<view class='root'>
+   <!-- <scroll-view scroll-y="true" style="height: 100%;"> -->
+  <text class='text1'>pages/UI/UI.wxmlsassssssssssssaaaaaaaaaaaaaaaaaaaaaas</text>
+    <view class="usermotto"  wx:for="{{array}}" wx:key="*this">
+    <text class="user-motto">{{index}}</text>
+  </view>
+
+  <view class='block' wx:for="{{array}}" wx:key="*this">
+    <view class="topimage">
+
+      <image class='image' src='../res/icon-jycg.png'></image>
+
+      <image class='rightimage' src='../res/hour.png'></image>
+      <view class='bottomview'>
+        <image class='bottomimage' src='../res/hour.png'></image>
+      </view>
+    </view>
+    <view class='blockright'>
+
+      <text class='text1'>pages/UI/UI.wxmlsasssasdasssssssssaaaaaaaaaaaaaaaaaaaaaas</text>
+
+      <text>pages/UI/UI.wxml</text>
+
+      <view class='extra-container'>
+        <view class="icon-container">
+          <image class='miniamge' src='../res/hour.png'></image>
+          <text class="icon-text">aa</text>
+        </view>
+        <view class="icon-container">
+          <image class='miniamge' src='../res/hour.png'></image>
+          <text class="icon-text">aa</text>
+        </view>
+      </view>
+
+    </view>
+
+
+  </view>
+  <!-- </scroll-view> -->
+</view>

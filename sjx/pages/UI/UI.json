@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+     "my-component": "/pages/component/custom-component/custom-component",
+     "card": "/pages/component/car/car",
+     "card1": "/pages/component/card/card"
+  }
+}

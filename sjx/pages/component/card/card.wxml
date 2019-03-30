@@ -1,0 +1,16 @@
+<!--pages/component/car/car.wxml-->
+
+
+  <view class="section section_gap swiper">
+    <swiper indicator-dots="{{indicatorDots}}" vertical="{{vertical}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for-items="{{banners}}" wx:key="*this">
+        <swiper-item>
+          <view class="swiper-item bc_{{item}}">
+          
+          <image   class="swiper-item bc_{{item}}" src="{{item.picUrl}}"></image>
+          </view>
+
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>

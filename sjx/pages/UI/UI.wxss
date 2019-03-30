@@ -1,0 +1,136 @@
+/* pages/UI/UI.wxss */
+
+.root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: #eed5d5;
+  padding: 20rpx 0;
+
+  bottom: 0;
+  top: 0;
+  justify-content: center;
+
+}
+
+.log-item {
+  margin: 10rpx;
+}
+.usermotto {
+  margin-top: 20px;
+}
+.block {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 20rpx 0;
+  margin-left: 20rpx;
+  background-color: white;
+}
+
+.image {
+  width: 240rpx;
+  height: 168rpx;
+  border-radius: 10rpx;
+
+  background-color: #eed5d5;
+}
+
+.blockright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 168rpx;
+  padding-left: 20rpx;
+}
+
+.text1 {
+  width: 450rpx;
+  font-size: 34rpx;
+  color: #333;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.miniamge {
+  width: 24rpx;
+  height: 24rpx;
+  margin-right: 8rpx;
+}
+
+.extra-container {
+  display: flex;
+  align-items: center;
+}
+
+.icon-container {
+  display: flex;
+  background-color: #eed5d5;
+  min-width: 120rpx;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 40rpx;
+}
+
+.icon-text {
+  display: flex;
+  font-size: 24rpx;
+  padding-bottom: 122rpx；;
+}
+
+.topimage {
+  width: 240rpx;
+  height: 168rpx;
+  position: relative;
+}
+
+.topimage .rightimage {
+  width: 24rpx;
+  height: 24rpx;
+  position: absolute;
+  right: 0rpx;
+  top: 20rpx;
+  display: flex;
+  background-color: #ffa;
+  justify-content: center;
+}
+
+.topimage .bottomview{
+
+  position: absolute;  
+  left: 0rpx;
+  right: 0rpx;
+  bottom: 0rpx;
+  display: flex;  
+  justify-content: center;   
+}
+
+
+.topimage .bottomimage {
+  width: 24rpx;
+  height: 24rpx;
+
+
+}
+.swiper-item{
+    display: block;
+    height: 150px;
+}
+
+.bc_1{
+    background-color: #09BB07;
+}
+.bc_2{
+    background-color: #F76260;
+}
+.bc_3{
+    background-color: #10AEFF;
+}
+.bc_4{
+    background-color: #FFBE00;
+}
+.bc_5{
+    background-color: #C9C9C9;
+}

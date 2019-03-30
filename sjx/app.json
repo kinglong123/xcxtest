@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/UI/UI",
+    "pages/index/index",
+    "pages/component/car/car",
+      "pages/component/card/card",
+      "pages/component/custom-component/custom-component",
+    "pages/logs/logs"
+  ],
+  "tabBar": {
+ 
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "组件SS"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "接口"
+      }
+    ]
+  },
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#fbf9fe",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
+  }
+
+}
