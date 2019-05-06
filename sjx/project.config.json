@@ -1,5 +1,6 @@
 {
 	"description": "项目配置文件",
+	"miniprogramRoot": "/",
 	"packOptions": {
 		"ignore": []
 	},
@@ -9,7 +10,8 @@
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
-		"autoAudits": false
+		"autoAudits": false,
+		"nodeModules": true
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.5.1",
@@ -19,6 +21,8 @@
 		"hidedInDevtools": []
 	},
 	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,

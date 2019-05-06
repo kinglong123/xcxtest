@@ -1,6 +1,7 @@
 //logs.js
 const util = require('../../utils/util.js')
-
+let app = getApp();
+let counter = 0;
 Page({
   data: {
     logs: []
@@ -11,5 +12,8 @@ Page({
         return util.formatTime(new Date(log))
       })
     })
+  },
+  doSomething: function () {
+    app.pubSub.emit('hello', ++counter);
   }
 })

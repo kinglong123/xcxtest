@@ -2,6 +2,8 @@
   "usingComponents": {
      "my-component": "/pages/component/custom-component/custom-component",
      "card": "/pages/component/car/car",
-     "card1": "/pages/component/card/card"
+     "card1": "/pages/component/card/card",
+     "slide-view": "miniprogram-slide-view"
+
   }
 }

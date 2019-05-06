@@ -1,5 +1,26 @@
 <!--pages/UI/UI.wxml-->
 <view class='root'>
+
+
+  <slide-view width="750" height="110" slide-width="500">
+  <view slot="left" class="l">
+    <image src="../res/file_transfer.jpg" class="img"></image>
+    <view class='text'>
+      <view class='title'>文件传输助手</view>
+      <view class='time'>7:00 PM</view>
+    </view>
+  </view>
+  <view slot="right" class="r">
+    <view class='read'>标为已读</view>
+    <view class='delete'>删除</view>
+  </view>
+</slide-view>
+
+
+
+
+
+
   <!-- <scroll-view scroll-y="true" style="height: 100%;"> -->
   <text class='text1'>pages/UI/UI.wxmlsassssssssssssaaaaaaaaaaaaaaaaaaaaaas</text>
   <view class="usermotto" wx:for="{{array}}" wx:key="*this">
@@ -18,9 +39,9 @@
     </view>
     <view class='blockright'>
 
-      <text class='text1'>pages/UI/UI.wxmlsasssasdasssssssssaaaaaaaaaaaaaaaaaaaaaas</text>
+      <text class='text1'>pages/UI/UI.wxml111aaaaaas</text>
 
-      <text>pages/UI/UI.wxml</text>
+      <text>pages/UI/UI.wxml111aaaaaas</text>
 
       <view class='extra-container'>
         <view class="icon-container">

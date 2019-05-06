@@ -1,4 +1,10 @@
 //app.js
+
+//var PubSub = require("/pages/plugins/PubSub.js");
+import config from 'config/index.js';
+import PubSub1 from '/pages/plugins/PubSub.js';
+//嗯嗯
+
 App({
   onLaunch: function () {
     // 展示本地存储能力
@@ -32,7 +38,15 @@ App({
         }
       }
     })
-  },
+  }, 
+
+  pubSub: new PubSub1(),
+  getConfig: function () {
+    return {
+      // 'geaeId': 'RwU/Ea32iQw=',
+      ...config// 默认配置
+    }
+  }, 
   globalData: {
     userInfo: null
   }

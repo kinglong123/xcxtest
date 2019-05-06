@@ -47,6 +47,14 @@ Page({
         }
       })
     }
+
+    app.pubSub.on('hello', (number) => {
+
+      console.log("number:" + number);
+      this.setData({
+        helloMsg: 'hello times:' + number
+      });
+    });
   },
   getUserInfo: function (e) {
     console.log(e)

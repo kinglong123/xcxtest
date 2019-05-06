@@ -1,14 +1,13 @@
 {
-  "pages":[
-    "pages/UI/UI",
+  "pages": [
     "pages/index/index",
+    "pages/logs/logs",
+    "pages/UI/UI",
     "pages/component/car/car",
-      "pages/component/card/card",
-      "pages/component/custom-component/custom-component",
-    "pages/logs/logs"
+    "pages/component/card/card",
+    "pages/component/custom-component/custom-component"
   ],
   "tabBar": {
- 
     "color": "#7A7E83",
     "selectedColor": "#3cc51f",
     "borderStyle": "black",
@@ -24,12 +23,12 @@
       }
     ]
   },
-  "window":{
-    "backgroundTextStyle":"dark",
+  "window": {
+    "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#fbf9fe",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black",
+    "navigationBarTextStyle": "black",
     "enablePullDownRefresh": true
-  }
-
+  },
+  "sitemapLocation": "sitemap.json"
 }
